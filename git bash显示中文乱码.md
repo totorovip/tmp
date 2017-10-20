@@ -7,7 +7,7 @@
 	</li>
 	<li>
 		<p>git status 时看到modifier的中文文件名乱码如图
-			<img src="https://raw.githubusercontent.com/fengshadu/xx/master/imgs/modifier-1.png" alt=""></p>
+		<img src="https://raw.githubusercontent.com/fengshadu/xx/master/imgs/modifier.png" alt=""></p>
 		<p>解决方法：</p>
 		<ul>
 			<li>
