@@ -3,10 +3,11 @@
 	<li>
 		<p>查看log中文乱码</p>
 		<p>如图设置git bash，查看log中文乱码解决</p>
-		<img src="https://raw.githubusercontent.com/fengshadu/src/master/imgs/修改gitbash中文乱码-1.png" alt="">
+		<img src="https://raw.githubusercontent.com/fengshadu/xx/master/imgs/修改gitbash中文乱码-1.png" alt="">
 	</li>
 	<li>
-		<p>git status 时看到modifier的中文文件名乱码如图<img src="https://raw.githubusercontent.com/fengshadu/src/master/imgs/modifier-1.png" alt=""></p>
+		<p>git status 时看到modifier的中文文件名乱码如图
+			<img src="https://raw.githubusercontent.com/fengshadu/xx/master/imgs/modifier-1.png" alt=""></p>
 		<p>解决方法：</p>
 		<ul>
 			<li>
