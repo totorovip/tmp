@@ -11,12 +11,12 @@
 		<ul>
 			<li>
 				<p>1、打开\etc\inputrc文件中对应的行，查找以下2行，并修改其值</p>
-				原来<br>
+				<p>原来</p>
 				<code>
 					set output-meta off
 					set convert-meta on
 				</code>
-				改成<br>
+				<p>改成</p>
 				<code>
 					set output-meta on
 					set convert-meta off
