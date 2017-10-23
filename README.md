@@ -12,3 +12,4 @@
 
 [测试][1]
 [1]: example.com
+[我的博客](http://blog.csdn.net/guodongxiaren)  
