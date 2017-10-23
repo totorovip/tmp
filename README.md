@@ -36,5 +36,13 @@ Thank `you`
 
 ## 插入代码片段
 ```JavaScript
-document.getElementById('myId').innerHTML='welcome to my homepage'
+::-webkit-scrollbar-thumb {
+        /* iScroll CSS, thanks */
+        background-color: rgba(0, 0, 0, 0.5);
+        border: 1px solid rgba(255, 255, 255, 0.9);
+        border-radius: 3px;
+    }
+    ::-webkit-scrollbar-thumb:window-inactive {
+        background-color: rgba(0, 0, 0, 0.6);
+    }
 ```
