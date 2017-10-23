@@ -35,7 +35,7 @@ Thank `you`
 ![baidu](http://www.baidu.com/img/bdlogo.gif)  
 
 ## 插入代码片段
-```JavaScript
+```css
 ::-webkit-scrollbar-thumb {
         /* iScroll CSS, thanks */
         background-color: rgba(0, 0, 0, 0.5);
