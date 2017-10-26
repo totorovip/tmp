@@ -30,7 +30,6 @@ $ npm install gulp --save-dev
 * 调用方式
   本地安装后，通过require()引入项目中node_modules目录下的模块。例如：  
   ![https://raw.githubusercontent.com/fengshadu/xx/master/imgs/node_gulpfile.png]  
-##### 默认下node.js会在NODE_PATH和目前js所在项目下的node_modules文件夹下去寻找模块  
-##### 每个项目独立安装，这样方便整个项目的复制到不同的开发机，不用安装多次。
+##### 默认下node.js会在NODE_PATH和目前js所在项目下的node_modules文件夹下去寻找模块##### 每个项目独立安装，这样方便整个项目的复制到不同的开发机，不用安装多次。
 
 
