@@ -16,6 +16,7 @@ $ npm install gulp --save-dev
   ![https://raw.githubusercontent.com/fengshadu/xx/master/imgs/node_path.png]  
   全局安装后的可以在命令后使用命令，如全局安装的tnpm命令  
   ![https://raw.githubusercontent.com/fengshadu/xx/master/imgs/node_global.png] 
+  ![xx/imgs/node_dev.png]
  * 调用方式  
  	命令行下直接调用 
 ### 本地安装  
