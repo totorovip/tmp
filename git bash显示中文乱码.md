@@ -8,10 +8,14 @@
   ### 解決方法
   * 1、打开\etc\inputrc文件中对应的行，查找以下2行，并修改其值  
     原來  
-    `set output-meta off
-	 set convert-meta on`  
+    ```css
+    set output-meta off  
+	set convert-meta on
+	```  
 	 改成  
-	 `set output-meta on
-	  set convert-meta off`
+	 ```css
+	  set output-meta on  
+	  set convert-meta off
+	  ```
   * 2、git bash 输入git config --global core.quotepath false
 
