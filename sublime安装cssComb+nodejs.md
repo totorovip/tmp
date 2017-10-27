@@ -32,8 +32,8 @@ ps: 现在的nodejs已经集成了npm了，所以npm是无需再手动安装的�
 * 3、Preferences-->插件设置-->nodejs-->setting-defalut
 ![](https://raw.githubusercontent.com/fengshadu/xx/master/imgs/nodejs_setting_default.png)
 * 测试：新建一个test.js文件，输入 console.log('Hello Node.js');
-    按快捷键 `Ctrl + B` 运行，成功输出！
-三、安装CssComb
+    按快捷键 `Ctrl + B` 运行，成功输出！  
+三、安装CssComb  
 -----
 * 载[CssComb](https://github.com/csscomb/sublime-csscomb)插件
 * 把zip文件重命名为CssComb.sublime-package 放到installed package文件夹里Ctrl+shift+P，安装package control：install package，搜索CssComb进行安装
@@ -45,7 +45,7 @@ ps: 现在的nodejs已经集成了npm了，所以npm是无需再手动安装的�
 * 去nodejs的安装目录找到bin的位置，复制路径放上去
 ![](https://raw.githubusercontent.com/fengshadu/xx/master/imgs/csscomb_setting_node_path.png)  
 这样就安装完成了。打开一个css文件，快捷键ctrl+shift+C 感受一下。如果属性重排了，说明大功告成，如果是满满的恶意，呃呃呃，可能遇到下面我也遇到的坑。  
-五、按照网上的方法安装好CssComb后，遇到的几个坑
+五、按照网上的方法安装好CssComb后，遇到的几个坑  
 -----
 * 排序下来出现空白行
  > 产生空行的原因是，CssComb的配置文件中sortOrder导致的，因为配置文件会把各种类型的属性划分成一个分类，例如显示属性、自身属性、文本属性等等划分。在重新排序后，不同类型的属性之间会产生一个空行。洁癖的你可能受不了，要删除吧。有两个方法。  
