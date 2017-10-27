@@ -3,6 +3,7 @@
 
 操作环境：windows7 64位  
 sublime使用cssComb需要Nodejs的支持。所以先安装nodejs的开发环境    
+
 一、安装nodejs的开发环境
 -----
 * 1、到[官网](http://nodejs.org/)下载nodejs的安装包，安装在除c盘的任意盘。（因为我的c盘已经快没空间了，我装在D盘，安装后如图：）  
