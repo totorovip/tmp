@@ -19,6 +19,7 @@ ps: 现在的nodejs已经集成了npm了，所以npm是无需再手动安装的�
 > 可以在命令行输入set 查看当前的变量设置。
 ![](https://raw.githubusercontent.com/fengshadu/xx/master/imgs/node_evt.png)
 这样是安装好了默认写入path环境变量  
+
 二、在Sublime Text3安装nodejs插件  
 ----
 [nodejs插件下载地址](https://github.com/tanepiper/SublimeText-Nodejs)  
@@ -33,6 +34,7 @@ ps: 现在的nodejs已经集成了npm了，所以npm是无需再手动安装的�
 ![](https://raw.githubusercontent.com/fengshadu/xx/master/imgs/nodejs_setting_default.png)
 * 测试：新建一个test.js文件，输入 console.log('Hello Node.js');
     按快捷键 `Ctrl + B` 运行，成功输出！  
+
 三、安装CssComb  
 ----
 * 载[CssComb](https://github.com/csscomb/sublime-csscomb)插件
@@ -44,7 +46,8 @@ ps: 现在的nodejs已经集成了npm了，所以npm是无需再手动安装的�
   > 打开Preferences-->插件设置-->CssComb-->setting-defalut
 * 去nodejs的安装目录找到bin的位置，复制路径放上去
 ![](https://raw.githubusercontent.com/fengshadu/xx/master/imgs/csscomb_setting_node_path.png)  
-这样就安装完成了。打开一个css文件，快捷键ctrl+shift+C 感受一下。如果属性重排了，说明大功告成，如果是满满的恶意，呃呃呃，可能遇到下面我也遇到的坑。  
+这样就安装完成了。打开一个css文件，快捷键ctrl+shift+C 感受一下。如果属性重排了，说明大功告成，如果是满满的恶意，呃呃呃，可能遇到下面我也遇到的坑。 
+
 五、按照网上的方法安装好CssComb后，遇到的几个坑  
 -----
 * 排序下来出现空白行
@@ -78,6 +81,7 @@ ps: 现在的nodejs已经集成了npm了，所以npm是无需再手动安装的�
 }
 ```
 这样的排序看起来就舒服很多了。  
+
 六、贴一下我cssComb配置。
 ----
 官网提供了在线配置的方式。你选完你的配置后，会生成一个json文件，你保存下载，再覆盖到之前修改的配置文件，就好。[在线配置地址](http://csscomb.com/config)  
