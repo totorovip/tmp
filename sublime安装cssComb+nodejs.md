@@ -1,7 +1,8 @@
 【学习笔记】sublime text3的CssComb的安装/配置方法以及报错解决方法/消除空行方法
 =====
-操作环境：windows7 64位
-sublime使用cssComb需要Nodejs的支持。所以先安装nodejs的开发环境  
+
+操作环境：windows7 64位  
+sublime使用cssComb需要Nodejs的支持。所以先安装nodejs的开发环境    
 一、安装nodejs的开发环境
 -----
 * 1、到[官网](http://nodejs.org/)下载nodejs的安装包，安装在除c盘的任意盘。（因为我的c盘已经快没空间了，我装在D盘，安装后如图：）  
@@ -17,15 +18,15 @@ npm -v 或者npm -version
 ps: 现在的nodejs已经集成了npm了，所以npm是无需再手动安装的，所以上面在安装好nodejs之后，在命令行可以查看npm的版本号。  
 * 如果在命令行输入命令提示无效的话，就把nodejs的安装路径写入path环境变量中。  
 > 可以在命令行输入set 查看当前的变量设置。
-![](https://raw.githubusercontent.com/fengshadu/xx/master/imgs/node_evt.png)
+![](https://raw.githubusercontent.com/fengshadu/xx/master/imgs/node_evi.png)
 这样是安装好了默认写入path环境变量  
 
 二、在Sublime Text3安装nodejs插件  
 ----
 [nodejs插件下载地址](https://github.com/tanepiper/SublimeText-Nodejs)  
-* 1. 直接下载压缩包后解压，重命名为nodejs,放到到sublime text的package目录中。 
+* 1、直接下载压缩包后解压，重命名为nodejs,放到到sublime text的package目录中。 
   (菜单栏中的Preferences-->浏览程序包Browse Packages直接打开package目录。)
-* 2. 修改编译选项，在../data/package目录下的nodejs目录中
+* 2、修改编译选项，在../data/package目录下的nodejs目录中
    打开Nodejs.sublime-build
 把原始内容修改成如下图，nodejs就按照你的路径来：
 ![](https://raw.githubusercontent.com/fengshadu/xx/master/imgs/sublime_build.png)
