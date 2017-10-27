@@ -19,7 +19,7 @@ ps: 现在的nodejs已经集成了npm了，所以npm是无需再手动安装的�
 > 可以在命令行输入set 查看当前的变量设置。
 ![](https://raw.githubusercontent.com/fengshadu/xx/master/imgs/node_evt.png)
 这样是安装好了默认写入path环境变量  
-二、在Sublime Text3安装nodejs插件
+二、在Sublime Text3安装nodejs插件  
 ----
 [nodejs插件下载地址](https://github.com/tanepiper/SublimeText-Nodejs)  
 * 1. 直接下载压缩包后解压，重命名为nodejs,放到到sublime text的package目录中。 
@@ -34,7 +34,7 @@ ps: 现在的nodejs已经集成了npm了，所以npm是无需再手动安装的�
 * 测试：新建一个test.js文件，输入 console.log('Hello Node.js');
     按快捷键 `Ctrl + B` 运行，成功输出！  
 三、安装CssComb  
------
+----
 * 载[CssComb](https://github.com/csscomb/sublime-csscomb)插件
 * 把zip文件重命名为CssComb.sublime-package 放到installed package文件夹里Ctrl+shift+P，安装package control：install package，搜索CssComb进行安装
 
