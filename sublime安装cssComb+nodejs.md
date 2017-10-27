@@ -13,7 +13,8 @@ sublime使用cssComb需要Nodejs的支持。所以先安装nodejs的开发环境
 ```cmd
 node -v
 npm -v 或者npm -version
-```
+```    
+
 这样就说明安装成功。  
 ![](https://raw.githubusercontent.com/fengshadu/xx/master/imgs/node_version.png)
 ps: 现在的nodejs已经集成了npm了，所以npm是无需再手动安装的，所以上面在安装好nodejs之后，在命令行可以查看npm的版本号。  
@@ -29,12 +30,12 @@ ps: 现在的nodejs已经集成了npm了，所以npm是无需再手动安装的�
   (菜单栏中的Preferences-->浏览程序包Browse Packages直接打开package目录。)
 * 2、修改编译选项，在../data/package目录下的nodejs目录中
    打开Nodejs.sublime-build
-把原始内容修改成如下图，nodejs就按照你的路径来：
+把原始内容修改成如下图，nodejs就按照你的路径来：  
 ![](https://raw.githubusercontent.com/fengshadu/xx/master/imgs/sublime_build.png)
 上面修改的有三个地方，两个是修改nodejs的安装路径，一个是修改编码的方式，我们项目是此阿勇utf8，我就直接修改成utf8
 * 3、Preferences-->插件设置-->nodejs-->setting-defalut
 ![](https://raw.githubusercontent.com/fengshadu/xx/master/imgs/nodejs_setting_default.png)
-* 测试：新建一个test.js文件，输入 console.log('Hello Node.js');
+* 4、测试：新建一个test.js文件，输入 console.log('Hello Node.js');
     按快捷键 `Ctrl + B` 运行，成功输出！  
 
 三、安装CssComb  
@@ -59,7 +60,7 @@ ps: 现在的nodejs已经集成了npm了，所以npm是无需再手动安装的�
    ![](https://raw.githubusercontent.com/fengshadu/xx/master/imgs/cssformat.png)
 * 如果使用快捷键的时候只选中属性，不选中className  
 我这里只选中test{}里面的属性，排序后如下
- > ```css
+```css
 		 .form-lines {
 		    background-color: #FFF;
 		    font-size: 1.4rem;
@@ -70,8 +71,9 @@ ps: 现在的nodejs已经集成了npm了，所以npm是无需再手动安装的�
 		    }
 		}
 }``` 
+
 这样的排序并没有正确，而且格式错误，.test里面的三个属性没有对齐。然后我换种方式，把className也选中，就可以了。排序后的代码是这样的。  
-> ```css
+```css
 .form-lines {
     font-size: 1.4rem;
     background-color: #fff;
@@ -82,10 +84,12 @@ ps: 现在的nodejs已经集成了npm了，所以npm是无需再手动安装的�
     }
 }
 ```
+
 这样的排序看起来就舒服很多了。  
 
-六、贴一下我cssComb配置。
+六、贴一下我cssComb配置
 ----
+
 官网提供了在线配置的方式。你选完你的配置后，会生成一个json文件，你保存下载，再覆盖到之前修改的配置文件，就好。[在线配置地址](http://csscomb.com/config)  
 我的配置文件【路径：Preferences->Package Setting->CssComb->setting Default】  
 ```json
