@@ -83,8 +83,8 @@ color: #999999;
 ```  
 坚持一个原则：能用HTML标签和属性解决的样式决不能使用CSS样式，要加粗字体，可以使用`b`标签，不适用`font-weight`。  
 ### 行高  
------  
-使用mso-line-height-rule属性，只在块元素上有效！！！OutLook中会有一个默认的行高最小值，特别是当设置 `font-family` 为微软雅黑时，默认的行高差不多为 Word 中的两倍行距，如果 line-height 设置的值小于默认的行高，无论你设置的是多少，则始终使用默认值，在很多情况下这是不能忍的，好在有个神奇的 `mso-line-height-rule`，使用行高时添加 `mso-line-height-rule:exactly`; 就能使行高始终等于我们所设置的值。    
+-----   
+使用mso-line-height-rule属性，只在块元素上有效！！！OutLook中会有一个默认的行高最小值，特别是当设置 `font-family` 为微软雅黑时，默认的行高差不多为 Word 中的两倍行距，如果 line-height 设置的值小于默认的行高，无论你设置的是多少，则始终使用默认值，在很多情况下这是不能忍的，好在有个神奇的 `mso-line-height-rule`，使用行高时添加 `mso-line-height-rule:exactly`; 就能使行高始终等于我们所设置的值。      
 兼容性问题  
 ----  
 总结出来的兼容性问题有：  
