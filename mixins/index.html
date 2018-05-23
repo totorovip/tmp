@@ -1,0 +1,97 @@
+<!DOCtype html>
+<html>
+    <head>
+        <title></title>
+        <meta charset="utf-8">
+        <meta content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=no" name="viewport">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black">
+        <link rel="stylesheet" href="./css/index.css" />
+        <link rel="stylesheet" href="./css/prism.css" />
+        <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.6.0/themes/prism-okaidia.css"> -->
+        <!-- <link rel="stylesheet" href="./css/bootstrap.min.css"> -->
+    </head>            
+    <body>
+    <div class="container flex-md-nowrap row flex">
+        <div class="left sidebar  navbar-dark flex-md-nowrap p-0 shadow" id="left">
+            <div>
+                <h2>大丰APP</h2>
+                <a href="javascript:;" data-href="topline.html">顶部1px细线</a>
+                <a href="javascript:;" data-href="btmline.html">底部1px细线</a>
+                <a href="javascript:;" data-href="">1px细线左开口</a>
+                <a href="">加大点击区域</a>
+                
+            </div>  
+
+            <div>
+                <h2>弹性布局</h2>
+                <a href="javascript:;">flex</a>
+                <a href="javascript:;">盒模型垂坠布局flex-direction-column</a>
+                <a href="javascript:;">flex-1</a>
+                <a href="javascript:;" title="水平布局的子元素两端对齐">水平布局的子元素两端对齐</a>
+                <a href="javascript:;" title="水平布局的子元素垂直居中">水平布局的子元素垂直居中</a>
+                <a href="javascript:;" title="水平布局的子元素水平居中">水平布局的子元素水平居中</a>
+                <a href="javascript:;" title="元素transition过渡">元素transition过渡</a>
+            </div>
+        </div>
+        <div class="mid-cont col-md-2">
+            <pre>
+                <code class="html">
+                        
+                                <span>特别</span>
+                </code>
+            </pre>     
+            <pre><code class="language-css">
+                    .right a {
+                        margin: 0;
+                        padding: 0;
+                        background: initial;
+                        box-shadow: initial;
+                        border: initial;
+                    }
+            </code></pre>
+
+            <pre><code class="language-javascript">
+                console.log(1);
+            </code></pre>
+
+            <pre>
+                    <code class="language-php">
+                        class GrabImage{
+                        
+                        }
+                    </code>
+                </pre>
+                
+        </div>
+        <div class="right col-md-2">
+            <p><h2 id="right-title">请点击左侧查看效果</h2></p>
+            <p><a href="javascript:;">一键复制代码</a></p>
+            <iframe src="" id="right-iframe"></iframe>
+            
+        </div>
+    </div>
+    <script src="./js/popper.min.js"></script>
+    <!-- <script src="./js/bootstrap.min.js"></script> -->
+    <script src="./js/prism.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.6.0/prism.min.js"></script>
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.14.0/components/prism-json.min.js"></script> -->
+    <script src="./js/jquery-3.1.1.min.js"></script>
+    <script src="./js/index.js"></script>
+    <script>
+    $(document).ready(function(){
+        var doc_pre = $("#post_content pre");
+        doc_pre.each(function(){
+            var class_val = $(this).attr('class');
+            var class_arr = new Array();
+            class_arr = class_val.split(';');
+            class_arr = class_arr['0'].split(':');
+            var lan_class = 'language-'+class_arr['1'];
+            var pre_content = '<code class="'+lan_class+'">'+$(this).html()+'</code>';
+            $(this).html(pre_content);
+            $(this).attr("class",'line-numbers '+lan_class);
+        });
+    });
+    </script>
+    </body>
+</html>

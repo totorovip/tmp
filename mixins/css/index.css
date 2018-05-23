@@ -1,0 +1,103 @@
+ 
+ @charset "utf-8";
+ /* reset s */
+ html{font-size:10px}
+ body,dd,dl,dt,form,h1,h2,input,li,ol,p,select,ul{margin:0;padding:0}
+ article,aside,dialog,figure,footer,header,hgroup,nav,section{display:block}
+ h1,h2,input,select,textarea{font-size:100%;font-weight:400;vertical-align:middle}
+ dl,ol,ul{list-style:none}
+ img,input{border:none}
+ input{background:0 0;vertical-align:top}
+ textarea{word-wrap:break-word;resize:none}
+ input,select,textarea{-webkit-appearance:none;border:none;outline:0}
+ /* reset e */
+ body {
+     background: #f5f5d5;
+ }
+ a {
+     display: inline-block;
+     width: 130px;
+     /* height: 22px; */
+     /* line-height: 22px; */
+     margin: .5rem;
+     padding: 1rem;
+     border-radius: .5rem;
+     font-size: 1.8rem;
+     color: #556677;
+     text-align: center;
+     text-decoration: none;
+     -webkit-box-shadow: inset 0px 1px 0px 0px #eeeeee;
+     box-shadow: inset 0px 1px 0px 0px #eeeeee;
+     background: -webkit-gradient( linear, left top, left bottom, color-stop(0.05, #aad2f0), color-stop(1, #8bc1ed) );
+     background: -moz-linear-gradient( center top, #aad2f0 5%, #8bc1ed 100% );
+     background-color: #aad2f0;
+     border: 1px solid #dcdcdc;
+     text-shadow: 1px 1px 0px #eeeeee;
+     overflow: hidden;
+     text-overflow:ellipsis;
+     white-space: nowrap;
+ }
+ h2 {
+     background: #eae6d7 !important;
+     border-radius: 6px 6px 6px 6px !important;
+     color: #49529c;
+     font-family: "微软雅黑" , "宋体" , "黑体" ,Arial;
+     font-size: 17px;
+     font-weight: bold;
+     /* height: 25px; */
+     /* line-height: 25px; */
+     margin: 15px 0 !important;
+     padding: 5px 0 5px 20px;
+     text-shadow: 2px 2px 3px #e6e8da;
+ }
+ .left {
+     /* float: left; */
+     width: 60%;
+ }
+ .right {
+     /* position: fixed; */
+     top: 0;
+     right: 0;
+     width: 40%;
+     height: 100%;
+ }
+ .right iframe {
+     width: 100%;
+     height: 100%;
+     padding: 1%;
+     border: 5px solid #eae6d7;
+     box-sizing: border-box;
+     box-shadow: inset 0px 1px 0px 0px #eeeeee;
+ }
+ .right a {
+     margin: 0;
+     padding: 0;
+     background: initial;
+     box-shadow: initial;
+     border: initial;
+ }
+
+ .sidebar {
+    /* position: fixed; */
+    top: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 100;
+    padding: 48px 0 0;
+    box-shadow: inset -1px 0 0 rgba(0, 0, 0, .1);   
+ }
+
+ /* 中间部分 */
+ .mid-cont {
+     margin: 0 10px;
+ }
+
+
+ /* 公共样式 */
+ /*  定义为盒模型  */
+.flex {
+    display: -webkit-box;/* android 2.1-3.0, ios 3.2-4.3 */
+    display: -webkit-flex;/* Chrome 21+ */
+    display: -ms-flexbox;/* WP IE 10 */
+    display:         flex;/* android 4.4 */
+}
