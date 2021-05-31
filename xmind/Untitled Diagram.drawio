@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-05-31T08:19:00.057Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="mAWWnbD0s_E9sqJXDPE3" version="14.6.13" type="github">
+<mxfile host="app.diagrams.net" modified="2021-05-31T08:24:46.189Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="1juGuU2qdx2BnFDCC_X3" version="14.6.13" type="github">
   <diagram id="hKSu6H1xzHYH_JBHGbdG" name="Page-1">
     <mxGraphModel dx="1298" dy="811" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -7,13 +7,13 @@
         <mxCell id="-qzfW4tpPz2sk6WSikvQ-1" value="&lt;span&gt;&amp;lt;Buttons&amp;gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="170" y="130" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="1tMunn7Bj9jigxqnXJ_m-2" value="Buttons.vue" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="1tMunn7Bj9jigxqnXJ_m-2" value="Buttons.vue" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="50" y="30" width="40" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="1tMunn7Bj9jigxqnXJ_m-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="1tMunn7Bj9jigxqnXJ_m-5" target="-qzfW4tpPz2sk6WSikvQ-1">
+        <mxCell id="1tMunn7Bj9jigxqnXJ_m-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="1tMunn7Bj9jigxqnXJ_m-5" target="-qzfW4tpPz2sk6WSikvQ-1" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="1tMunn7Bj9jigxqnXJ_m-5" value="&amp;lt;ResultBUttons&amp;gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="1tMunn7Bj9jigxqnXJ_m-5" value="&amp;lt;ResultBUttons&amp;gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="170" y="20" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
